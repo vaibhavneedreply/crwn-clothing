@@ -45,6 +45,7 @@ class App extends Component {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/shop' element={<ShopPage />} />
+          {/* other way  */}
           {/* <Route path='/signin' element={<AuthRoute><SignInAndSignUpPage /></AuthRoute>}  /> */}
           <Route
             path='/signin'
